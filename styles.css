@@ -8,7 +8,7 @@
 }
 
 input {
-  width: 65px;
+  width: 55px;
   height: 40px;
   border-radius: 10%;
   border: 2px solid skyblue;
@@ -36,17 +36,16 @@ input {
 }
 
 #totalAmount {
-  width: 130px;
+  width: 110px;
   color: red;
-  font-weight: bolder;
-  font-size: large;
+  font-size: bold;
 }
 .container {
   border-radius: 5%;
   border: 2px solid skyblue;
   margin: 50px auto;
   padding: 15px;
-  width: 376px;
+  width: 350px;
 }
 
 #lotto {
