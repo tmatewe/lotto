@@ -24,11 +24,11 @@ input {
   margin: 10px;
 }
 #amount {
-  width: 110px;
+  width: 100px;
   text-align: center;
 }
 #moreInfo {
-  width: 30px;
+  width: 50px;
   font-weight: bolder;
   font-size: large;
   text-align: center;
