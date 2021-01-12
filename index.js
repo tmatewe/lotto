@@ -69,6 +69,7 @@ clickBtn.addEventListener("click", () => {
       inputs[4].style.backgroundColor = "red";
     }
     if (num == 1) {
+      console.log(num);
       arrCorrectNumber.forEach((correctNumber) => {
         correctNumbers.innerHTML += `<button class="btn btn-info btn-sm">${correctNumber}</button>`;
       });
