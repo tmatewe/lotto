@@ -20,6 +20,7 @@ let clickBtn = document.querySelector("#clickBtn");
 let correctNumbers = document.querySelector("#correctNumbers");
 let moreInfo = document.querySelector("#moreInfo");
 let amount = document.querySelector("#amount");
+let start = document.querySelector("#start");
 //totol amount
 let randomTotal = Math.floor(Math.random() * 3);
 let total = [950560.56, 1200560.45, 892000.54, 1300345.88];
@@ -97,4 +98,8 @@ clickBtn.addEventListener("click", () => {
       amount.value = `R${arrOne[randomNum]}`;
     }
   }
+});
+
+start.addEventListener("click", () => {
+  location.reload();
 });
