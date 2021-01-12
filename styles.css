@@ -24,19 +24,19 @@ input {
   margin: 10px;
 }
 #amount {
-  width: 100px;
+  width: 120px;
   text-align: center;
   font-size: small;
 }
 #moreInfo {
-  width: 40px;
+  width: 50px;
   font-weight: bolder;
   font-size: large;
   text-align: center;
 }
 
 #totalAmount {
-  width: 205px;
+  width: 150px;
   color: red;
   font-weight: bolder;
   font-size: large;
@@ -46,7 +46,7 @@ input {
   border: 2px solid skyblue;
   margin: 50px auto;
   padding: 15px;
-  width: 380px;
+  width: 376px;
 }
 
 #lotto {
