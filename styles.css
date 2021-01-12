@@ -8,7 +8,7 @@
 }
 
 input {
-  width: 80px;
+  width: 65px;
   height: 40px;
   border-radius: 10%;
   border: 2px solid skyblue;
@@ -21,24 +21,28 @@ input {
   color: white;
   font-weight: bolder;
   font-size: large;
-  margin: 20px;
+  margin: 10px;
 }
-#amount,
+#amount {
+  width: 110px;
+  text-align: center;
+}
 #moreInfo {
-  width: 130px;
+  width: 30px;
   font-weight: bolder;
   font-size: large;
   text-align: center;
 }
+
 #totalAmount {
-  width: 280px;
+  width: 210px;
   color: red;
   font-weight: bolder;
   font-size: large;
 }
 .container {
   border-radius: 5%;
-  border: 2px solid skyblue;
+  border: 2px solid white;
   margin: 50px auto;
   padding: 15px;
   width: 600px;
