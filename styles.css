@@ -26,26 +26,27 @@ input {
 #amount {
   width: 100px;
   text-align: center;
+  font-size: small;
 }
 #moreInfo {
-  width: 50px;
+  width: 40px;
   font-weight: bolder;
   font-size: large;
   text-align: center;
 }
 
 #totalAmount {
-  width: 210px;
+  width: 205px;
   color: red;
   font-weight: bolder;
   font-size: large;
 }
 .container {
   border-radius: 5%;
-  border: 2px solid white;
+  border: 2px solid skyblue;
   margin: 50px auto;
   padding: 15px;
-  width: 600px;
+  width: 380px;
 }
 
 #lotto {
