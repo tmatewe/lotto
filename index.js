@@ -4,15 +4,34 @@ let randomTwo = Math.ceil(Math.random() * 36);
 let randomThree = Math.ceil(Math.random() * 36);
 let randomfour = Math.ceil(Math.random() * 36);
 let randomFive = Math.ceil(Math.random() * 36);
+let randomSix = Math.ceil(Math.random() * 36);
+let randomSeven = Math.ceil(Math.random() * 36);
+let randomEight = Math.ceil(Math.random() * 36);
+let randomNine = Math.ceil(Math.random() * 36);
+let randomTen = Math.ceil(Math.random() * 36);
 //arr of random numbers
-let arrCorrectNumber = [
+let a = [
   randomOne,
   randomTwo,
   randomThree,
   randomfour,
   randomFive,
+  randomSix,
+  randomSeven,
+  randomEight,
+  randomNine,
+  randomTen,
 ];
-console.log(arrCorrectNumber);
+//console.log(a);
+// let a = [1, 2, 3, 4, 2, 2, 4, 1, 5, 6];
+// let b = [...new Set(a)];
+// console.log(b);
+
+let b = [...new Set(a)];
+//console.log(b);
+
+let arrCorrectNumber = [b[0], b[1], b[2], b[3], b[4]];
+//console.log(arrCorrectNumber);
 let count = 0;
 let num = 0;
 let inputs = document.querySelectorAll(".guess");
@@ -25,7 +44,6 @@ let start = document.querySelector("#start");
 let randomTotal = Math.floor(Math.random() * 3);
 let total = [950560.56, 1200560.45, 892000.54, 1300345.88];
 totalAmount.value = `R${total[randomTotal]}`;
-console.log(correctNumbers);
 clickBtn.addEventListener("click", () => {
   num++;
   console.log(num);
