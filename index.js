@@ -30,7 +30,7 @@ let a = [
 let b = [...new Set(a)];
 //console.log(b);
 
-let arrCorrectNumber = [b[0], b[1], b[2], b[3], b[4]];
+let arrCorrectNumber = [b[0], b[1], b[2], b[3], b[4], b[5]];
 //console.log(arrCorrectNumber);
 let count = 0;
 let num = 0;
@@ -52,7 +52,8 @@ clickBtn.addEventListener("click", () => {
     inputs[1].value == "" ||
     inputs[2].value == "" ||
     inputs[3].value == "" ||
-    inputs[4].value == ""
+    inputs[4].value == "" ||
+    inputs[5].value == ""
   ) {
     alert("No blanks allowed!!!");
   } else {
@@ -85,6 +86,12 @@ clickBtn.addEventListener("click", () => {
       inputs[4].style.backgroundColor = "green";
     } else {
       inputs[4].style.backgroundColor = "red";
+    }
+    if (arrCorrectNumber.includes(Number(inputs[5].value))) {
+      count++;
+      inputs[5].style.backgroundColor = "green";
+    } else {
+      inputs[5].style.backgroundColor = "red";
     }
     if (num == 1) {
       console.log(num);
