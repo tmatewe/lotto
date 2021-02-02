@@ -1,14 +1,14 @@
 //random numbers buttons
-let randomOne = Math.ceil(Math.random() * 36);
-let randomTwo = Math.ceil(Math.random() * 36);
-let randomThree = Math.ceil(Math.random() * 36);
-let randomfour = Math.ceil(Math.random() * 36);
-let randomFive = Math.ceil(Math.random() * 36);
-let randomSix = Math.ceil(Math.random() * 36);
-let randomSeven = Math.ceil(Math.random() * 36);
-let randomEight = Math.ceil(Math.random() * 36);
-let randomNine = Math.ceil(Math.random() * 36);
-let randomTen = Math.ceil(Math.random() * 36);
+let randomOne = Math.ceil(Math.random() * 49);
+let randomTwo = Math.ceil(Math.random() * 49);
+let randomThree = Math.ceil(Math.random() * 49);
+let randomfour = Math.ceil(Math.random() * 49);
+let randomFive = Math.ceil(Math.random() * 49);
+let randomSix = Math.ceil(Math.random() * 49);
+let randomSeven = Math.ceil(Math.random() * 49);
+let randomEight = Math.ceil(Math.random() * 49);
+let randomNine = Math.ceil(Math.random() * 49);
+let randomTen = Math.ceil(Math.random() * 49);
 //arr of random numbers
 let a = [
   randomOne,
